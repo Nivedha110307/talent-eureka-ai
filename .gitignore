@@ -1,0 +1,16 @@
+.venv/
+venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.env
+*.db
+*.tsbuildinfo
+uploads/
+reports/*.json
+reports/*.md
+.env.*
+!.env.example
+.venv/
+

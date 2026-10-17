@@ -1,0 +1,17 @@
+{
+  "label": "Synthetic TalentEureka evaluation set v1",
+  "jobs": [
+    {"id":"api","title":"Backend Engineer","description":"Build Python APIs with FastAPI and PostgreSQL","required_skills":["Python","FastAPI"]},
+    {"id":"data","title":"Data Analyst","description":"Explore business metrics with SQL and Python","required_skills":["SQL","Data analysis"]},
+    {"id":"analytics","title":"Analytics Engineer","description":"Model warehouse data using SQL and dbt","required_skills":["SQL","dbt"]},
+    {"id":"platform","title":"Platform Developer","description":"Linux tooling, Docker and infrastructure automation","required_skills":["Linux","Docker"]},
+    {"id":"design","title":"Product Designer","description":"Research user needs, prototypes and interface design","required_skills":["Figma","UX research"]}
+  ],
+  "queries": [
+    {"query":"python fastapi backend api","relevant":["api"]},
+    {"query":"sql product metrics analysis","relevant":["data","analytics"]},
+    {"query":"warehouse models dbt","relevant":["analytics"]},
+    {"query":"docker linux platform infrastructure","relevant":["platform"]},
+    {"query":"prototype user research design","relevant":["design"]}
+  ]
+}
